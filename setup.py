@@ -34,7 +34,17 @@ setup(
     },
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[],
+    install_requires=[
+        "munkres>=1.0.6",
+        "numpy==1.20.2",
+        "scipy==1.6.0",
+        "pandas==1.1.5",
+        "tqdm==4.56.0",
+        "scikit-learn==0.22",
+        "torch>=1.2.0,<2.0.0",
+        "tensorboard==2.4.1",
+        "networkx==2.3",
+    ],
     python_requires=">=3.6",
     keywords="machine-learning ai weak-supervision",
 )
